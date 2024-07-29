@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
 }
 
 .top{
@@ -15,19 +16,20 @@ body{
 
 .logo{
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
+    font-weight: bold;    
 }
 
 
 .links{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: flex-end;
 }
 
 a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: gray;
     font-size: 18px;
 }
 
@@ -62,9 +64,11 @@ a{
 .headerButton{
     background-color: #3882f6;
     color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 150px;
     height: 40px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .headerMainText{
@@ -72,7 +76,6 @@ a{
     flex-direction: column;
     gap: 10px;
 }
-/* END OF TOP HEADER SECTION */
 
 .mainText{
     font-size: 48px;
@@ -85,10 +88,55 @@ a{
     color: #e5e7eb;
 }
 
-.upperMiddle{
-    height: 300px;
+/* END OF TOP HEADER SECTION */
+
+.emptyBox{
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
 }
 
+.text{
+    width: 150px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+.boxAndText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.middleContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imageGroup{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.upperMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+}
+
+.middleTitle{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 .lowerMiddle{
     height: 300px;
     background-color: #e5e7eb;
