@@ -1,0 +1,1 @@
+Second project I have worked on with The Odin Project, this project showcases all the skill I have learned with flexbox so I can create a website from scratch that isn't just a white background with text and images. 
