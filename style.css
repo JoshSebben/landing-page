@@ -137,9 +137,32 @@ a{
     font-weight: bolder;
     color: #1f2937;
 }
+
+/* END OF UPPER MIDDLE SECTION */
+
 .lowerMiddle{
     height: 300px;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerMiddleContent{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.quote{
+    font-size: 20px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author{
+    text-align: end;
+    font-weight: bold;
 }
 
 .bottom{
