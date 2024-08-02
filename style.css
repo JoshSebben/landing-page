@@ -165,16 +165,55 @@ a{
     font-weight: bold;
 }
 
+/* END OF QUOTE SECTION */
+
 .bottom{
+    display: flex;
+    flex-direction: column;
     height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .middleBottom{
     background-color: #3882f6;
+    width: 1400px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Title{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.bottomText{
+    font-size: 18px;
+    color: white;
+}
+
+.footerButton{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid;
 }
 
 .footer{
-    height: 50px;
+    height: 100px;
     background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
